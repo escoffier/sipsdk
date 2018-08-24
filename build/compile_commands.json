@@ -1,0 +1,172 @@
+[
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/tinyxml2/tinyxml2.cpp.o -c /home/robbie/workspace/media/npsipsdk/tinyxml2/tinyxml2.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/tinyxml2/tinyxml2.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/source/NPReproAuthManager.cpp.o -c /home/robbie/workspace/media/npsipsdk/source/NPReproAuthManager.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/source/NPReproAuthManager.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/source/OutboundProxyContainer.cpp.o -c /home/robbie/workspace/media/npsipsdk/source/OutboundProxyContainer.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/source/OutboundProxyContainer.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/source/SipClient.cpp.o -c /home/robbie/workspace/media/npsipsdk/source/SipClient.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/source/SipClient.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/source/SipGatewary.cpp.o -c /home/robbie/workspace/media/npsipsdk/source/SipGatewary.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/source/SipGatewary.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/source/SipInterface.cpp.o -c /home/robbie/workspace/media/npsipsdk/source/SipInterface.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/source/SipInterface.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/source/Log.cpp.o -c /home/robbie/workspace/media/npsipsdk/source/Log.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/source/Log.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/source/RegisterHandler.cpp.o -c /home/robbie/workspace/media/npsipsdk/source/RegisterHandler.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/source/RegisterHandler.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/source/WorkThreads.cpp.o -c /home/robbie/workspace/media/npsipsdk/source/WorkThreads.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/source/WorkThreads.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/DeviceControlMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/DeviceControlMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/DeviceControlMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/QueryDeviceStatusMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/QueryDeviceStatusMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/QueryDeviceStatusMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/BroadcastMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/BroadcastMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/BroadcastMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/QueryAlarmMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/QueryAlarmMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/QueryAlarmMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/NpClientMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/NpClientMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/NpClientMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/QueryDeviceInfoMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/QueryDeviceInfoMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/QueryDeviceInfoMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/DeviceStatusNotifyMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/DeviceStatusNotifyMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/DeviceStatusNotifyMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/InviteMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/InviteMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/InviteMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/MessageMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/MessageMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/MessageMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/NpGatewayMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/NpGatewayMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/NpGatewayMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/Message.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/Message.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/Message.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/CatalogNotifyMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/CatalogNotifyMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/CatalogNotifyMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/CallInfoMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/CallInfoMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/CallInfoMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/KeepaliveMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/KeepaliveMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/KeepaliveMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/GetTempAccountMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/GetTempAccountMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/GetTempAccountMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/QueryRecordInfoMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/QueryRecordInfoMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/QueryRecordInfoMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/ConfigDownloadMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/ConfigDownloadMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/ConfigDownloadMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/GBMessage.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/GBMessage.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/GBMessage.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/MsgFactory.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/MsgFactory.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/MsgFactory.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/AlarmNotifyMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/AlarmNotifyMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/AlarmNotifyMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/DeviceConfigMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/DeviceConfigMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/DeviceConfigMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/SubscriptionMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/SubscriptionMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/SubscriptionMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/RegisterMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/RegisterMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/RegisterMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/QueryCatalogMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/QueryCatalogMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/QueryCatalogMsg.cpp"
+},
+{
+  "directory": "/home/robbie/workspace/media/npsipsdk/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5   -DOUT -I/home/robbie/workspace/media/npsipsdk/build -I/home/robbie/workspace/media/npsipsdk -I/home/robbie/workspace/media/npsipsdk/tinyxml2 -I/home/robbie/workspace/media/npsipsdk/./header  -g   -std=gnu++14 -o CMakeFiles/npsipsdk.dir/Message/CallMessageMsg.cpp.o -c /home/robbie/workspace/media/npsipsdk/Message/CallMessageMsg.cpp",
+  "file": "/home/robbie/workspace/media/npsipsdk/Message/CallMessageMsg.cpp"
+}
+]

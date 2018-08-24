@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7BEA7E4B-DDA3-4ACF-96E9-CF613E0B84F9}</ProjectGuid>
+    <RootNamespace>npsipsdk</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\netposa_pubsdk\include;.\tinyxml2;header;..\resiprocate;lib_npsipsdk\header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;NPGATEWAY;NPSIPSDK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\netposa_pubsdk\include;.\tinyxml2;header;..\resiprocate;lib_npsipsdk\header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;NPGATEWAY;NPSIPSDK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>C:\netposa_pubsdk\include;..\pub\codelib\ext\tinyxml;header;..\resiprocate-1.7;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;NPSIPSDK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>C:\netposa_pubsdk\include;..\pub\codelib\ext\tinyxml;header;..\resiprocate-1.7;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;NPSIPSDK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Message\AlarmNotifyMsg.cpp" />
+    <ClCompile Include="Message\BroadcastMsg.cpp" />
+    <ClCompile Include="Message\CallInfoMsg.cpp" />
+    <ClCompile Include="Message\CallMessageMsg.cpp" />
+    <ClCompile Include="Message\CatalogNotifyMsg.cpp" />
+    <ClCompile Include="Message\ConfigDownloadMsg.cpp" />
+    <ClCompile Include="Message\DeviceConfigMsg.cpp" />
+    <ClCompile Include="Message\DeviceControlMsg.cpp" />
+    <ClCompile Include="Message\GBMessage.cpp" />
+    <ClCompile Include="Message\GetTempAccountMsg.cpp" />
+    <ClCompile Include="Message\InviteMsg.cpp" />
+    <ClCompile Include="Message\KeepaliveMsg.cpp" />
+    <ClCompile Include="Message\Message.cpp" />
+    <ClCompile Include="Message\MessageMsg.cpp" />
+    <ClCompile Include="Message\MsgFactory.cpp" />
+    <ClCompile Include="Message\NpClientMsg.cpp" />
+    <ClCompile Include="Message\NpGatewayMsg.cpp" />
+    <ClCompile Include="Message\QueryAlarmMsg.cpp" />
+    <ClCompile Include="Message\QueryCatalogMsg.cpp" />
+    <ClCompile Include="Message\QueryDeviceInfoMsg.cpp" />
+    <ClCompile Include="Message\QueryDeviceStatusMsg.cpp" />
+    <ClCompile Include="Message\QueryRecordInfoMsg.cpp" />
+    <ClCompile Include="Message\RegisterMsg.cpp" />
+    <ClCompile Include="Message\SubscriptionMsg.cpp" />
+    <ClCompile Include="source\Log.cpp" />
+    <ClCompile Include="source\NPReproAuthManager.cpp" />
+    <ClCompile Include="source\OutboundProxyContainer.cpp" />
+    <ClCompile Include="source\RegisterHandler.cpp" />
+    <ClCompile Include="source\SipClient.cpp" />
+    <ClCompile Include="source\SipGatewary.cpp" />
+    <ClCompile Include="source\SipInterface.cpp" />
+    <ClCompile Include="source\WorkThreads.cpp" />
+    <ClCompile Include="tinyxml2\tinyxml2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\InviteHandler.h" />
+    <ClInclude Include="header\MessageHandler.h" />
+    <ClInclude Include="header\MessageQueue.hpp" />
+    <ClInclude Include="header\NotifyHandler.h" />
+    <ClInclude Include="header\NPReproAuthMananger.h" />
+    <ClInclude Include="header\OutboundProxyContainer.h" />
+    <ClInclude Include="header\RegisterHandler.h" />
+    <ClInclude Include="header\SipClient.hpp" />
+    <ClInclude Include="header\SipGateway.hpp" />
+    <ClInclude Include="header\SipInterface.h" />
+    <ClInclude Include="header\SubscriptionHandler.h" />
+    <ClInclude Include="header\WorkThreads.h" />
+    <ClInclude Include="lib_npsipsdk\header\Log.hpp" />
+    <ClInclude Include="Message\AlarmNotifyMsg.hpp" />
+    <ClInclude Include="Message\BroadcastMsg.hpp" />
+    <ClInclude Include="Message\CallInfoMsg.hpp" />
+    <ClInclude Include="Message\CallMessageMsg.hpp" />
+    <ClInclude Include="Message\CatalogNotifyMsg.hpp" />
+    <ClInclude Include="Message\ConfigDownloadMsg.hpp" />
+    <ClInclude Include="Message\DeviceConfigMsg.hpp" />
+    <ClInclude Include="Message\DeviceControlMsg.hpp" />
+    <ClInclude Include="Message\GB28181.hpp" />
+    <ClInclude Include="Message\GB28181Ex.hpp" />
+    <ClInclude Include="Message\GBMessage.hpp" />
+    <ClInclude Include="Message\GetTempAccountMsg.hpp" />
+    <ClInclude Include="Message\InviteMsg.hpp" />
+    <ClInclude Include="Message\KeepaliveMsg.hpp" />
+    <ClInclude Include="Message\Message.hpp" />
+    <ClInclude Include="Message\MessageMsg.hpp" />
+    <ClInclude Include="Message\MsgCreater.hpp" />
+    <ClInclude Include="Message\MsgFactory.hpp" />
+    <ClInclude Include="Message\NpClientMsg.hpp" />
+    <ClInclude Include="Message\NpGatewayMsg.hpp" />
+    <ClInclude Include="Message\QueryAlarmMsg.hpp" />
+    <ClInclude Include="Message\QueryCatalogMsg.hpp" />
+    <ClInclude Include="Message\QueryDeviceInfoMsg.hpp" />
+    <ClInclude Include="Message\QueryDeviceStatusMsg.hpp" />
+    <ClInclude Include="Message\QueryRecordInfoMsg.hpp" />
+    <ClInclude Include="Message\RegisterMsg.hpp" />
+    <ClInclude Include="Message\SubscriptionMsg.hpp" />
+    <ClInclude Include="tinyxml2\tinyxml2.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{1528915e-f4d9-4f0b-8ad7-297cdfc412f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml2">
+      <UniqueIdentifier>{31573626-061a-4b87-8e43-a79ec7ec4770}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NPReproAuthManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\OutboundProxyContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RegisterHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SipClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SipGatewary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SipInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WorkThreads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\AlarmNotifyMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\BroadcastMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\CallInfoMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\CallMessageMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\CatalogNotifyMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\ConfigDownloadMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\DeviceConfigMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\DeviceControlMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\GBMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\GetTempAccountMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\InviteMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\KeepaliveMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\Message.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\MessageMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\MsgFactory.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\NpClientMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\NpGatewayMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\QueryAlarmMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\QueryCatalogMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\QueryDeviceInfoMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\QueryDeviceStatusMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\QueryRecordInfoMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\RegisterMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\SubscriptionMsg.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2\tinyxml2.cpp">
+      <Filter>tinyxml2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\InviteHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_npsipsdk\header\Log.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\MessageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\MessageQueue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NotifyHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NPReproAuthMananger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\OutboundProxyContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\RegisterHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SipClient.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SipGateway.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SipInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SubscriptionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\WorkThreads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\AlarmNotifyMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\BroadcastMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\CallInfoMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\CallMessageMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\CatalogNotifyMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\ConfigDownloadMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\DeviceConfigMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\DeviceControlMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\GB28181.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\GB28181Ex.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\GBMessage.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\GetTempAccountMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\InviteMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\KeepaliveMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\Message.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\MessageMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\MsgCreater.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\MsgFactory.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\NpClientMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\NpGatewayMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\QueryAlarmMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\QueryCatalogMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\QueryDeviceInfoMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\QueryDeviceStatusMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\QueryRecordInfoMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\RegisterMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\SubscriptionMsg.hpp">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2\tinyxml2.h">
+      <Filter>tinyxml2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

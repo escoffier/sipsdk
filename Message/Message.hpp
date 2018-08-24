@@ -1,0 +1,16 @@
+#ifndef MESSAGE_HPP_
+#define MESSAGE_HPP_
+
+//////////////////////////////////////////////////////////////////////////
+class CSipInterface;
+class CMessage
+{
+public:
+	void Post();
+
+public:
+	virtual void Process( CSipInterface *pInterface ) = 0;
+};
+
+//////////////////////////////////////////////////////////////////////////
+#endif // MESSAGE_HPP_
